@@ -1,0 +1,202 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-size: 1em;
+    font-family: "Trebuchet MS", helvetica, sans-serif;
+    background:url('imagens/imagem00.jpg');
+    background-repeat: no-repeat;
+    background-color: #0e0909;
+    
+
+}
+
+#area-header {
+
+    background: #000000;
+    position:fixed;
+    width: 100%;
+    z-index: 1;
+    height: 100px;
+    
+    
+
+}
+
+#area-logo {
+    text-align: left;
+    padding: 15px;
+    position: relative;
+    top: 15px;
+    clear: both;
+
+}
+
+/*menu*/
+ #area-menu {
+    text-align: right;
+    padding: 15px;
+    position: relative;
+    bottom: 35px;
+    clear: both;
+
+}
+
+.cor {
+    color: blue;
+}
+.cor1 {
+    color: rgb(255, 255, 255);
+}
+
+.post {
+    color: rgb(255, 255, 255);
+    font-size: 3.0em;
+    padding: 10px;
+   background-image: url('imagens/imagem00.jpg');
+    border-radius: 5px;
+    
+}
+
+.postagem {
+    margin-top: 50px;
+    padding-bottom: 20px;
+
+}
+
+.postagem1 {
+    position: relative;
+    left: 300px;
+    margin-top: 300px;
+    background: white;
+    
+}
+
+.separacao {
+    background: white;
+    width: 100%;
+    height: 100px;
+}
+
+
+
+a {
+    text-decoration: none;
+   
+}
+
+a:link, a:visited {
+    color: rgb(83, 25, 241);
+
+}
+
+a:hover {
+    color: rgb(187, 187, 187);
+    background: rgb(5, 5, 5);
+}
+
+
+#area-header a:link, #area-header a:visited {
+    padding: 20px;
+    color: white;
+    padding: 20px;
+
+}
+ #area-menu a:hover {
+    background: rgb(191, 191, 219);
+    color: rgb(11, 0, 170);
+    border-radius: 15px;
+    
+}
+
+#area-principal {
+   width: 1200px; 
+   margin: 0 auto;
+   padding: 15px;
+
+}
+
+ #area-lateral {
+    background: rgb(216, 216, 216);
+    margin-top: 270px;
+    
+}
+
+
+#area-postagens {
+    width: 860px;
+    float: left;
+    position: relative;
+    clear: both;
+    margin-top: 150px;
+   
+  
+    
+}
+
+
+
+#area-lateral{
+    width: 340px;
+    float: right;
+    position: relative;
+    left: 20px;
+    
+  
+
+   
+
+}
+
+#rodape {
+    clear: both;
+    text-align: center;
+    background: gray;
+    color: #000000;
+    padding: 10px;
+    margin-top: 20px 0 ;
+}
+
+
+.postagem{
+    padding: 15px auto;
+    margin-bottom: 20px;
+    background: rgb(231, 231, 231);
+    
+}
+
+
+/*informaçoes gerais*/
+
+img {
+    
+    width: 860px;
+    height: 550px;
+    
+    
+
+}
+
+
+
+h2 {
+    padding: 20px;
+}
+    
+  
+
+
+p {
+    padding: 10px;
+    color: #000000;
+   
+}
+
+h3 {
+    padding: 10px;
+    color: rgb(17, 49, 192);
+}
+
+
